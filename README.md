@@ -2,25 +2,28 @@
 
 ## 🧪 Contexto
 
-Este proyecto fue desarrollado originalmente como propuesta para una convocatoria de la **PROFEPA**, con el objetivo de explorar cómo las técnicas de *web scraping* pueden apoyar en la vigilancia y protección de zonas forestales en México.
+Este proyecto plantea una **solución práctica de monitoreo de noticias basada en web scraping**, diseñada para apoyar a instituciones como **PROFEPA**, **Protección Civil** u otras dependencias interesadas en el análisis automatizado de medios digitales para la **detección temprana de eventos ambientales**, como incendios forestales.
 
-Aunque no se implementó oficialmente, este repositorio funciona como un **ejemplo práctico de cómo automatizar la recopilación de información** desde sitios de noticias en línea, enfocado en eventos como incendios forestales, quemas, afectaciones a bosques y actividades relacionadas.
+El sistema se enfoca en capturar y analizar oraciones clave desde noticias en línea, relacionadas con palabras como “bosque”, “incendio”, “humo”, etc., con el objetivo de construir una base de datos que pueda alimentar futuros modelos de análisis o visualización.
 
 ## 🎯 Propósito del proyecto
 
-La idea central es detectar noticias relevantes mediante palabras clave como **incendio**, **bosque**, **humo**, **brigadistas**, etc., en portales de noticias locales del Estado de México. A partir de ello, se busca extraer fragmentos de texto significativos (oraciones) y ubicaciones mencionadas, con el fin de generar alertas tempranas o alimentar modelos de ciencia de datos.
+Detectar noticias relevantes sobre eventos forestales o ambientales mediante palabras clave, extraer fragmentos de texto representativos, y permitir su inspección y análisis a través de una interfaz gráfica amigable.
 
 ## 🛠️ Componentes principales
 
-- **Web scraping con Selenium** y ChromeDriver
-- **Extracción de texto** y separación de oraciones por relevancia semántica
-- **Asociación geográfica** mediante Nominatim (geopy)
-- **Visualización** con Streamlit, folium y plotly
-- **Exportación** de resultados en formatos estructurados (CSV, Excel)
+Este proyecto implementa un **sistema de scraping local con interfaz gráfica (GUI)** desarrollado en Python utilizando el patrón Modelo-Vista-Controlador (MVC).
 
-## 🚧 Nota importante
+### 🔧 Funcionalidades:
 
-Este proyecto **no pretende reemplazar sistemas oficiales de monitoreo**, sino ilustrar cómo los datos abiertos y el análisis automatizado pueden contribuir al desarrollo de herramientas complementarias en la protección ambiental.
+- **Interfaz gráfica (GUI)** con PyQt5 (diseñada en Qt Designer)
+- **Carga de URLs y palabras clave** desde la GUI
+- **Scraping de texto** con `requests` + `BeautifulSoup`
+- **Limpieza y separación de oraciones** con `nltk` entrenado en español
+- **Identificación de oraciones que contienen palabras clave**
+- **Visualización en tiempo real** dentro de la GUI con barra de progreso
+- **Exportación a Excel** (`.xlsx`) estructurado con `pandas`
+- **Compilación en ejecutable (.exe)** usando PyInstaller
 
 ## 👤 Autor
 
@@ -32,3 +35,4 @@ Este proyecto **no pretende reemplazar sistemas oficiales de monitoreo**, sino i
 ---
 
 > *Rodríguez Ruelas, R. A. (2025). Sistema de Web Scraping para Monitoreo de Noticias Ambientales. GitHub Repository. https://github.com/Rodriguez-Ruelas*
+
