@@ -1,4 +1,4 @@
-# 🔥 Sistema de Web Scraping para Monitoreo de Noticias Ambientales
+# 🔥 Sistema de Web Scraping para Monitoreo de Noticias
 
 ## 🧪 Contexto
 
