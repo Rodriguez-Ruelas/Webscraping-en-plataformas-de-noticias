@@ -2,13 +2,13 @@
 
 ## 🧪 Contexto
 
-Este proyecto plantea una **solución práctica de monitoreo de noticias basada en web scraping**, diseñada para apoyar a instituciones como **PROFEPA**, **Protección Civil** u otras dependencias interesadas en el análisis automatizado de medios digitales para la **detección temprana de eventos ambientales**, como incendios forestales.
+Este proyecto plantea una **solución práctica para el monitoreo automatizado de noticias** mediante web scraping, útil para dependencias gubernamentales, instituciones educativas, investigadores o cualquier usuario que necesite **recabar información de manera rápida y estructurada** desde medios digitales.
 
-El sistema se enfoca en capturar y analizar oraciones clave desde noticias en línea, relacionadas con palabras como “bosque”, “incendio”, “humo”, etc., con el objetivo de construir una base de datos que pueda alimentar futuros modelos de análisis o visualización.
+El sistema permite extraer oraciones clave desde páginas de noticias en línea, detectando menciones a temas específicos como *“bosques”*, *“incendios”*, *“brigadas”*, *“zonas protegidas”*, o cualquier palabra clave definida por el usuario. Esto facilita la construcción de bases de datos orientadas al análisis temático, seguimiento de eventos o clasificación automática.
 
 ## 🎯 Propósito del proyecto
 
-Detectar noticias relevantes sobre eventos forestales o ambientales mediante palabras clave, extraer fragmentos de texto representativos, y permitir su inspección y análisis a través de una interfaz gráfica amigable.
+Desarrollar una herramienta que permita **automatizar la detección y extracción de fragmentos relevantes** en noticias digitales, usando palabras clave definidas por el usuario, todo dentro de una interfaz gráfica sencilla. El objetivo es facilitar tareas de monitoreo, recolección de datos o exploración temática para diversos fines analíticos o académicos.
 
 ## 🛠️ Componentes principales
 
