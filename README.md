@@ -60,6 +60,8 @@ También se incluye una barra de progreso y un botón para guardar manualmente l
 <p align="center"><em>Figura 2. Resultados mostrados tras ejecutar el scraping con varias URLs y palabras clave.</em></p>
 
 ---
+## Encalce de descarga:
+https://drive.google.com/file/d/1DnMmT59W-7ZQQdwnyWjNkhXqm4ycwkHy/view?usp=drive_link
 
 ## 👤 Autor
 
